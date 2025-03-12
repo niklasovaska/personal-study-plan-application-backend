@@ -1,0 +1,10 @@
+PUT http://localhost:3001/api/courses/67d17f762c6cbe7a70db7851
+Content-Type: application/json
+
+{
+    "name": "Test course",
+    "code": "123465A",
+    "credits": 5,
+    "grade": "5",
+    "status": "completed"
+}

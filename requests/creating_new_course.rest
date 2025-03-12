@@ -4,5 +4,6 @@ Content-Type: application/json
 {
     "name": "Test course",
     "code": "123465A",
-    "credits": 5
+    "credits": 5,
+    "status": "upcoming"
 }
