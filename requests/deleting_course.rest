@@ -1,2 +1,2 @@
-DELETE http://localhost:3001/api/courses/67d17f762c6cbe7a70db7851
+DELETE http://localhost:3001/api/courses/67d2b935fcf3f5699f95af47
 

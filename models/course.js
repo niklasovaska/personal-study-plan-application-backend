@@ -1,19 +1,4 @@
 const mongoose = require('mongoose')
-const { info, error } = require('../utils/logger')
-
-mongoose.set('strictQuery', false)
-
-const url = process.env.MONGODB_URI
-
-info('connecting to database')
-
-mongoose.connect(url)
-  .then(result => {
-    info('connected to MongoDB')
-  })
-  .catch(error => {
-    error('error connecting to MongoDB: ', error.messsage)
-  })
 
 const courseSchema = new mongoose.Schema({
     name: {

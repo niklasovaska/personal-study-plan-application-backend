@@ -1,4 +1,4 @@
-PUT http://localhost:3001/api/courses/67d17f762c6cbe7a70db7851
+PUT http://localhost:3001/api/courses/67d2b53a08e8ad3dddcf8a43
 Content-Type: application/json
 
 {
